@@ -1,5 +1,5 @@
 {
-  "name": "@totoraj/gbf-tweet-parser",
+  "name": "@totoraj930/gbf-tweet-parser",
   "version": "1.0.0",
   "description": "Parser for Granblue Fantasy request backup tweets.",
   "main": "./build/index.js",
