@@ -1,6 +1,6 @@
 {
   "name": "@totoraj930/gbf-tweet-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parser for Granblue Fantasy request backup tweets.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -23,6 +23,9 @@
     "url": "https://github.com/totoraj930/gbf-tweet-parser/issues"
   },
   "homepage": "https://github.com/totoraj930/gbf-tweet-parser#readme",
+  "keywords": [
+    "granblue"
+  ],
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
