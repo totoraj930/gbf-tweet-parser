@@ -88,6 +88,22 @@ Huanglong & Qilin (Impossible)`,
   }
 );
 
+runTest(
+  '偽装',
+  `:参戦ID
+参加者募集！
+Lv200ル·オー12 B8AD65E4 :参戦ID
+参加者募集！
+Lv200 リンドヴルム`,
+  {
+    battleId: 'B8AD65E4',
+    enemyName: 'リンドヴルム',
+    level: '200',
+    language: 'ja',
+    comment: ':参戦ID\n参加者募集！\nLv200ル·オー12',
+  }
+);
+
 function runTest(desc: string, text: string, ideal: GbfTweet) {
   describe(desc, () => {
     const res = parse(text);
